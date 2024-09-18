@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+        <label for="nisha">are you okay</label>
+        <input type="checkbox" id="nisha" name="a" >
+        <!-- you write checked in after name ="a"  checked>  you will get automatically checked-->
+    <button>submit</button>
+    </form>
+    <hr>
+    <div>Enter your Gender:
+        <label for="nisha">male</label>
+        <input type="radio" name="gender" placeholder="checked your gender" id="nisha" value="male">
+        <label for="nisha">female</label>
+        <input type="radio" name="gender" placeholder="checked your gender" id="nisha" value="female">
+        <label for="nisha">others</label>
+        <input type="radio" name="gender" placeholder="checked your gender" id="nisha" value="others">
+        
+        <!-- if you write same name it is called group i.e   if you checked in male then automatically radio button is out  -->
+    </div>
+    <form action="/server">choose subjects:
+        <label for="math">math</label>
+        <input type="checkbox" name="kali" value="math" id="math">
+        <label for="english">english</label>
+        <input type="checkbox" name="kali" value="english" id="english">
+        <label for="computer">computer</label>
+        <input type="checkbox" name="kali" value="computer" id="computer">
+        
+        <button>submit</button>
+        <hr>
+        <div>
+            Select your name:
+            <select id="name" name="name">
+                <option>select your name</option>
+               <option value="n"  selected>nisha</option>
+               <option value="m">manisha</option>
+               <option value="p">pranisha</option>
+            </select>
+        </div>
+        <div>
+            <label for="nisha">select a volume</label>
+            <input type="range" max="100" min="0" id="nisha" name="volume"  step="10" value="50"> </input>
+            <button>submit</button>
+        </div>
+        <div>
+            <label for="nisha">please describe your self</label>
+            <textarea id="nisha" name="nisha" placeholder="write your self"></textarea>
+        </div>
+    </form>
+</html>
